@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0 auto;
+}
+
+.container-header {
+    background-image: url("/img/tentativa3.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 50vh;
+    width: 100vw;
+}
+
+.container-header .content {
+    padding: 100px;
+    color: rgb(255, 255, 255); 
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.container-header .content a {
+    background: rgb(255, 255, 255);
+    color: rgb(170, 26, 110);
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.container-header .content a:hover {
+    background-color:rgb(170, 26, 110);
+    color: rgb(255, 255, 255);
+}
+
+.container-header p {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.sobre-mim {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.sobre-mim .conteudo-sobre-mim {
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre-mim h2 {
+    font-size: 40px;
+    color: rgb(170, 26, 110);
+    font-family: 'poppins', sans-serif;
+}
+
+.sobre-mim .resumo {
+    width: 60%;
+    font-family: 'poppins', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.sobre-mim .resumo p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.sobre-mim .resumo a {
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color:rgb(170, 26, 110);
+    font-weight: bold;
+    color:rgb(170, 26, 110);
+    font-size: 18px;
+}
+
+.sobre-mim .resumo a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 26, 110);
+}
+
+.sobre-mim .habilidades {
+    width: 40%;
+    font-family:'poppins', sans-serif;
+    padding-left: 100px;
+}
+
+.sobre-mim .habilidades h3 {
+    font-size: 22px;
+}
+
+.sobre-mim .habilidades ul {
+    font-size: 18px;
+}
+
+.rodape {
+    padding: 15px;
+}
+
+.rodape .rodape-content {
+    display: flex;
+    justify-content: center;
+    font-family:'poppins', sans-serif;
+}
+
+.rodape .rodape-content .linkedin {
+    background: rgb(128, 0, 128);
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.rodape .rodape-content .linkedin:hover {
+    background-color: rgb(189, 62, 136);
+}
+
+.rodape .rodape-content .Github {
+    background: rgb(128, 0, 128);
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.rodape .rodape-content .Github:hover {
+    background-color: rgb(189, 62, 136);
+}
+
+.rodape .rodape-content .Facebook {
+    background: rgb(128, 0, 128);
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.rodape .rodape-content .Facebook:hover {
+    background-color: rgb(189, 62, 136);
+}
+
+.rodape .rodape-content .linkedin img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape .rodape-content .Github img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape .rodape-content .Facebook img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape .rodape-content .linkedin a {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.rodape .rodape-content .Github a {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.rodape .rodape-content .Facebook a {
+    padding: 10px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
